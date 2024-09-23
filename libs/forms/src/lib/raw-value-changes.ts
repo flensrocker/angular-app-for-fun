@@ -2,7 +2,7 @@ import { AbstractControl } from '@angular/forms';
 import { concat, EMPTY, map, Observable, of } from 'rxjs';
 
 export type RawValueChangesOptions = {
-  replayCurrentValue?: boolean;
+  readonly replayCurrentValue: boolean;
 };
 
 export const RAW_VALUE_CHANGES_OPTIONS_DEFAULTS: RawValueChangesOptions = {
